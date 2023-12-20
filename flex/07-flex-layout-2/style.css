@@ -27,3 +27,47 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My solution */
+
+.header {
+  display: flex;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  display: flex;
+  flex: 0 0;
+
+}
+
+.cards {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 8px;
+}
+
+.card {
+  min-width: 300px;
+  padding: 8px;
+}
+
+.footer {
+  display: flex;
+
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  
+}
+
+ul {
+  list-style-type: none;
+}
