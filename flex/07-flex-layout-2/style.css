@@ -32,42 +32,64 @@ body {
 
 .header {
   display: flex;
+  font-size: 32px;
+  color: white;
+  font-weight: 900;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .middle {
   display: flex;
   flex-direction: row;
+  gap: 32px;
 }
 
 .sidebar {
   display: flex;
-  flex: 0 0;
-
+  flex: 0 0 auto;
+  justify-content: flex-start;
 }
 
 .cards {
   display: flex;
-  flex-flow: row nowrap;
-  gap: 8px;
+  flex-flow: row wrap;
+  gap: 32px;
+  margin: 32px 32px 32px 0px;
 }
 
 .card {
-  min-width: 300px;
-  padding: 8px;
+  display: flex;
+  flex: 1 1 auto;
+  width: 250px;
+  height: 250px;
+  padding: 32px;
+  
 }
 
 .footer {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
 }
 
 body {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-between;
-  
 }
 
 ul {
   list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+li {
+  padding: 8px;
+  
 }
