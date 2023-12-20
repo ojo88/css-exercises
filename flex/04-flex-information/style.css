@@ -24,3 +24,31 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution */
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  margin: auto;
+  padding-bottom: 32px;
+
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+
+.barberry, .chilli, .pepper, .saffron {
+  width: 200px;
+
+}
